@@ -1,4 +1,4 @@
-package com.nfq.demo.entities;
+package com.nfq.demo.beans;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 @Data
 @NoArgsConstructor
-public class LoanEvent {
+public class LoanEventBean {
 
     private String gfLoanEventId;
     private String gfFacilityId;
